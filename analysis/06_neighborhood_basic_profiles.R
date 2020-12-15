@@ -129,6 +129,8 @@ out_by_city <- params %>%
   }) %>%
   map(select, topic, level, city, town, everything())
 
+saveRDS(out_by_city, str_glue("output_data/acs_to_prep_for_viz_{acs_year}.rds"))
+
 out_by_city %>%
   map(pivot_longer, estimate:share, names_to = "type") %>%
   map(unite, indicator, type, group, sep = " ") %>%
