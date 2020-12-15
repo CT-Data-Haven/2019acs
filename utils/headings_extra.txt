@@ -1,0 +1,13 @@
+indicator,display
+estimate male,Male population
+share male,Percent male
+estimate female,Female population
+share female,Percent female
+estimate has_vehicle,Households with 1+ vehicles
+share has_vehicle,"Percent of households, 1+ vehicles"
+estimate ages25plus,Adults ages 25+
+estimate less_than_high_school,Adults without high school diploma
+share less_than_high_school,"Percent of adults, no high school diploma"
+estimate bachelors_plus,Adults with bachelor's or higher
+share bachelors_plus,"Percent of adults, bachelor's or higher"
+estimate median_household_income,Median household income
