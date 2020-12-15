@@ -10,11 +10,11 @@ on:
       - main
       - master
 
-name: deploy-data
+name: deploy data
 
 jobs:
-  deploy-data:
-    runs-on: ubuntu-latest
+  R-CMD-check:
+    runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -29,12 +29,11 @@ jobs:
         run: devtools::test(cran = FALSE)
         shell: Rscript {0}
       - name: Deploy local
-        uses: s0/git-publish-subdir-action@develop
+        uses: s0/git-publish-subdir-action@v2.4.0
         env: 
           REPO: self
           BRANCH: distro
           FOLDER: to_distro
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SKIP_EMPTY_COMMITS: true
  
 
