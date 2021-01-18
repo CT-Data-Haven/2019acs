@@ -12,6 +12,7 @@ total_pop,3_regions,Greater New Haven,2019,total_pop,463682,155,NA,NA
 total_pop,3_regions,Greater Waterbury,2019,total_pop,333077,323,NA,NA
 total_pop,3_regions,Greater Bridgeport,2019,total_pop,322564,102,NA,NA
 total_pop,3_regions,Lower Naugatuck Valley,2019,total_pop,139537,91,NA,NA
+total_pop,3_regions,Greater Hartford,2019,total_pop,971871,361,NA,NA
 total_pop,4_towns,Bethel,2019,total_pop,19663,26,NA,NA
 total_pop,4_towns,Bridgeport,2019,total_pop,145639,51,NA,NA
 total_pop,4_towns,Brookfield,2019,total_pop,17016,25,NA,NA
@@ -211,6 +212,9 @@ age,2_counties,Windham County,2019,ages65plus,18712,740,0.161,0.006
 age,3_regions,Greater Bridgeport,2019,total_pop,322564,3653,NA,NA
 age,3_regions,Greater Bridgeport,2019,ages0_17,73364,1698,0.227,0.005
 age,3_regions,Greater Bridgeport,2019,ages65plus,47417,1316,0.147,0.004
+age,3_regions,Greater Hartford,2019,total_pop,971871,6384,NA,NA
+age,3_regions,Greater Hartford,2019,ages0_17,200730,3044,0.207,0.003
+age,3_regions,Greater Hartford,2019,ages65plus,160911,2405,0.166,0.002
 age,3_regions,Greater New Haven,2019,total_pop,463682,4687,NA,NA
 age,3_regions,Greater New Haven,2019,ages0_17,91868,2197,0.198,0.004
 age,3_regions,Greater New Haven,2019,ages65plus,77514,1761,0.167,0.003
@@ -757,6 +761,9 @@ sex,2_counties,Windham County,2019,female,58839,192,0.505,0.001
 sex,3_regions,Greater Bridgeport,2019,total_pop,322564,2102,NA,NA
 sex,3_regions,Greater Bridgeport,2019,male,155546,1484,0.482,0.003
 sex,3_regions,Greater Bridgeport,2019,female,167018,1488,0.518,0.003
+sex,3_regions,Greater Hartford,2019,total_pop,971871,3784,NA,NA
+sex,3_regions,Greater Hartford,2019,male,474171,2672,0.488,0.002
+sex,3_regions,Greater Hartford,2019,female,497700,2680,0.512,0.002
 sex,3_regions,Greater New Haven,2019,total_pop,463682,2818,NA,NA
 sex,3_regions,Greater New Haven,2019,male,222759,1990,0.48,0.003
 sex,3_regions,Greater New Haven,2019,female,240923,1995,0.52,0.003
@@ -1323,6 +1330,11 @@ race,3_regions,Greater Bridgeport,2019,hispanic,77114,2109,0.239,0.007
 race,3_regions,Greater Bridgeport,2019,white,165726,2122,0.514,0.007
 race,3_regions,Greater Bridgeport,2019,black,58233,1978,0.181,0.006
 race,3_regions,Greater Bridgeport,2019,other_race,21491,1754,0.067,0.005
+race,3_regions,Greater Hartford,2019,total_pop,971871,361,NA,NA
+race,3_regions,Greater Hartford,2019,hispanic,158793,3101,0.163,0.003
+race,3_regions,Greater Hartford,2019,white,617501,3832,0.635,0.004
+race,3_regions,Greater Hartford,2019,black,117089,3027,0.12,0.003
+race,3_regions,Greater Hartford,2019,other_race,78488,2828,0.081,0.003
 race,3_regions,Greater New Haven,2019,total_pop,463682,155,NA,NA
 race,3_regions,Greater New Haven,2019,hispanic,75152,2598,0.162,0.006
 race,3_regions,Greater New Haven,2019,white,282354,2895,0.609,0.006
@@ -2203,6 +2215,8 @@ foreign_born,2_counties,Windham County,2019,total_pop,116566,0,NA,NA
 foreign_born,2_counties,Windham County,2019,foreign_born,5672,642,0.049,0.006
 foreign_born,3_regions,Greater Bridgeport,2019,total_pop,322564,102,NA,NA
 foreign_born,3_regions,Greater Bridgeport,2019,foreign_born,66939,2301,0.208,0.007
+foreign_born,3_regions,Greater Hartford,2019,total_pop,971871,361,NA,NA
+foreign_born,3_regions,Greater Hartford,2019,foreign_born,142424,3536,0.147,0.004
 foreign_born,3_regions,Greater New Haven,2019,total_pop,463682,155,NA,NA
 foreign_born,3_regions,Greater New Haven,2019,foreign_born,62962,2427,0.136,0.005
 foreign_born,3_regions,Greater Waterbury,2019,total_pop,333077,323,NA,NA
@@ -2567,6 +2581,8 @@ tenure,2_counties,Windham County,2019,total_households,44953,550,NA,NA
 tenure,2_counties,Windham County,2019,owner_occupied,31004,778,0.69,0.015
 tenure,3_regions,Greater Bridgeport,2019,total_households,112798,1065,NA,NA
 tenure,3_regions,Greater Bridgeport,2019,owner_occupied,73104,1148,0.648,0.008
+tenure,3_regions,Greater Hartford,2019,total_households,376861,1977,NA,NA
+tenure,3_regions,Greater Hartford,2019,owner_occupied,244624,1913,0.649,0.004
 tenure,3_regions,Greater New Haven,2019,total_households,177208,1543,NA,NA
 tenure,3_regions,Greater New Haven,2019,owner_occupied,106231,1480,0.599,0.007
 tenure,3_regions,Greater Waterbury,2019,total_households,126404,1245,NA,NA
@@ -2931,6 +2947,8 @@ housing_cost,2_counties,Windham County,2019,total_households,43758,1400,NA,NA
 housing_cost,2_counties,Windham County,2019,cost_burden,14272,823,0.326,0.016
 housing_cost,3_regions,Greater Bridgeport,2019,total_households,110205,2113,NA,NA
 housing_cost,3_regions,Greater Bridgeport,2019,cost_burden,47960,1517,0.435,0.011
+housing_cost,3_regions,Greater Hartford,2019,total_households,367852,3856,NA,NA
+housing_cost,3_regions,Greater Hartford,2019,cost_burden,122798,2419,0.334,0.006
 housing_cost,3_regions,Greater New Haven,2019,total_households,172820,2807,NA,NA
 housing_cost,3_regions,Greater New Haven,2019,cost_burden,69183,1857,0.4,0.009
 housing_cost,3_regions,Greater Waterbury,2019,total_households,122987,2339,NA,NA
@@ -3295,6 +3313,8 @@ vehicles,2_counties,Windham County,2019,total_households,44953,550,NA,NA
 vehicles,2_counties,Windham County,2019,has_vehicle,41999,1174,0.934,0.023
 vehicles,3_regions,Greater Bridgeport,2019,total_households,112798,1065,NA,NA
 vehicles,3_regions,Greater Bridgeport,2019,has_vehicle,100100,1903,0.887,0.015
+vehicles,3_regions,Greater Hartford,2019,total_households,376861,1977,NA,NA
+vehicles,3_regions,Greater Hartford,2019,has_vehicle,340651,3274,0.904,0.007
 vehicles,3_regions,Greater New Haven,2019,total_households,177208,1543,NA,NA
 vehicles,3_regions,Greater New Haven,2019,has_vehicle,155165,2407,0.876,0.011
 vehicles,3_regions,Greater Waterbury,2019,total_households,126404,1245,NA,NA
@@ -3669,6 +3689,9 @@ education,2_counties,Windham County,2019,bachelors_plus,19805,948,0.243,0.012
 education,3_regions,Greater Bridgeport,2019,ages25plus,213112,1503,NA,NA
 education,3_regions,Greater Bridgeport,2019,less_than_high_school,28979,1279,0.136,0.006
 education,3_regions,Greater Bridgeport,2019,bachelors_plus,79264,1775,0.372,0.008
+education,3_regions,Greater Hartford,2019,ages25plus,667464,2603,NA,NA
+education,3_regions,Greater Hartford,2019,less_than_high_school,64323,1927,0.096,0.003
+education,3_regions,Greater Hartford,2019,bachelors_plus,262121,3267,0.393,0.005
 education,3_regions,Greater New Haven,2019,ages25plus,318877,1955,NA,NA
 education,3_regions,Greater New Haven,2019,less_than_high_school,26842,1424,0.084,0.004
 education,3_regions,Greater New Haven,2019,bachelors_plus,129159,2542,0.405,0.008
@@ -4393,6 +4416,9 @@ poverty,2_counties,Windham County,2019,low_income,28228,2015,0.254,0.018
 poverty,3_regions,Greater Bridgeport,2019,poverty_status_determined,312859,662,NA,NA
 poverty,3_regions,Greater Bridgeport,2019,poverty,39628,2381,0.127,0.008
 poverty,3_regions,Greater Bridgeport,2019,low_income,87004,3691,0.278,0.012
+poverty,3_regions,Greater Hartford,2019,poverty_status_determined,936013,1342,NA,NA
+poverty,3_regions,Greater Hartford,2019,poverty,97788,3366,0.104,0.004
+poverty,3_regions,Greater Hartford,2019,low_income,217505,5548,0.232,0.006
 poverty,3_regions,Greater New Haven,2019,poverty_status_determined,444674,825,NA,NA
 poverty,3_regions,Greater New Haven,2019,poverty,53560,2842,0.12,0.006
 poverty,3_regions,Greater New Haven,2019,low_income,113504,4380,0.255,0.01
@@ -4969,6 +4995,12 @@ pov_age,3_regions,Greater Bridgeport,2019,ages0_17_low_income,26176,1433,0.361,0
 pov_age,3_regions,Greater Bridgeport,2019,ages65plus_poverty_status_determined,45662,1496,NA,NA
 pov_age,3_regions,Greater Bridgeport,2019,ages65plus_poverty,3514,423,0.077,0.009
 pov_age,3_regions,Greater Bridgeport,2019,ages65plus_low_income,10367,732,0.227,0.014
+pov_age,3_regions,Greater Hartford,2019,ages0_17_poverty_status_determined,198027,3813,NA,NA
+pov_age,3_regions,Greater Hartford,2019,ages0_17_poverty,26744,1565,0.135,0.007
+pov_age,3_regions,Greater Hartford,2019,ages0_17_low_income,60187,2395,0.304,0.011
+pov_age,3_regions,Greater Hartford,2019,ages65plus_poverty_status_determined,155421,2715,NA,NA
+pov_age,3_regions,Greater Hartford,2019,ages65plus_poverty,12694,820,0.082,0.005
+pov_age,3_regions,Greater Hartford,2019,ages65plus_low_income,35227,1373,0.227,0.008
 pov_age,3_regions,Greater New Haven,2019,ages0_17_poverty_status_determined,90930,2813,NA,NA
 pov_age,3_regions,Greater New Haven,2019,ages0_17_poverty,15718,1278,0.173,0.013
 pov_age,3_regions,Greater New Haven,2019,ages0_17_low_income,30830,1796,0.339,0.017
