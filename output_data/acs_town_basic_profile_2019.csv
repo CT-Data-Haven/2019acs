@@ -8,11 +8,16 @@ total_pop,2_counties,New Haven County,2019,total_pop,857513,0,NA,NA
 total_pop,2_counties,New London County,2019,total_pop,267390,0,NA,NA
 total_pop,2_counties,Tolland County,2019,total_pop,151063,0,NA,NA
 total_pop,2_counties,Windham County,2019,total_pop,116566,0,NA,NA
+total_pop,3_regions,6 wealthiest Fairfield County,2019,total_pop,123826,64,NA,NA
+total_pop,3_regions,Greater Bridgeport,2019,total_pop,322564,102,NA,NA
+total_pop,3_regions,Greater Hartford,2019,total_pop,971871,361,NA,NA
 total_pop,3_regions,Greater New Haven,2019,total_pop,463682,155,NA,NA
 total_pop,3_regions,Greater Waterbury,2019,total_pop,333077,323,NA,NA
-total_pop,3_regions,Greater Bridgeport,2019,total_pop,322564,102,NA,NA
+total_pop,3_regions,Hartford Inner Ring,2019,total_pop,421743,241,NA,NA
+total_pop,3_regions,Hartford Outer Ring,2019,total_pop,354273,248,NA,NA
 total_pop,3_regions,Lower Naugatuck Valley,2019,total_pop,139537,91,NA,NA
-total_pop,3_regions,Greater Hartford,2019,total_pop,971871,361,NA,NA
+total_pop,3_regions,New Haven Inner Ring,2019,total_pop,144487,79,NA,NA
+total_pop,3_regions,New Haven Outer Ring,2019,total_pop,188864,125,NA,NA
 total_pop,4_towns,Bethel,2019,total_pop,19663,26,NA,NA
 total_pop,4_towns,Bridgeport,2019,total_pop,145639,51,NA,NA
 total_pop,4_towns,Brookfield,2019,total_pop,17016,25,NA,NA
@@ -209,6 +214,9 @@ age,2_counties,Tolland County,2019,ages65plus,23140,797,0.153,0.005
 age,2_counties,Windham County,2019,total_pop,116566,1491,NA,NA
 age,2_counties,Windham County,2019,ages0_17,23341,685,0.2,0.005
 age,2_counties,Windham County,2019,ages65plus,18712,740,0.161,0.006
+age,3_regions,6 wealthiest Fairfield County,2019,total_pop,123826,1994,NA,NA
+age,3_regions,6 wealthiest Fairfield County,2019,ages0_17,35981,1112,0.291,0.008
+age,3_regions,6 wealthiest Fairfield County,2019,ages65plus,19517,819,0.158,0.006
 age,3_regions,Greater Bridgeport,2019,total_pop,322564,3653,NA,NA
 age,3_regions,Greater Bridgeport,2019,ages0_17,73364,1698,0.227,0.005
 age,3_regions,Greater Bridgeport,2019,ages65plus,47417,1316,0.147,0.004
@@ -221,9 +229,21 @@ age,3_regions,Greater New Haven,2019,ages65plus,77514,1761,0.167,0.003
 age,3_regions,Greater Waterbury,2019,total_pop,333077,3904,NA,NA
 age,3_regions,Greater Waterbury,2019,ages0_17,71444,1935,0.214,0.005
 age,3_regions,Greater Waterbury,2019,ages65plus,59152,1478,0.178,0.004
+age,3_regions,Hartford Inner Ring,2019,total_pop,421743,4288,NA,NA
+age,3_regions,Hartford Inner Ring,2019,ages0_17,82870,1999,0.196,0.004
+age,3_regions,Hartford Inner Ring,2019,ages65plus,75698,1625,0.179,0.003
+age,3_regions,Hartford Outer Ring,2019,total_pop,354273,3766,NA,NA
+age,3_regions,Hartford Outer Ring,2019,ages0_17,71911,1759,0.203,0.004
+age,3_regions,Hartford Outer Ring,2019,ages65plus,61786,1492,0.174,0.004
 age,3_regions,Lower Naugatuck Valley,2019,total_pop,139537,2803,NA,NA
 age,3_regions,Lower Naugatuck Valley,2019,ages0_17,27986,1369,0.201,0.009
 age,3_regions,Lower Naugatuck Valley,2019,ages65plus,24856,1069,0.178,0.007
+age,3_regions,New Haven Inner Ring,2019,total_pop,144487,2846,NA,NA
+age,3_regions,New Haven Inner Ring,2019,ages0_17,26574,1286,0.184,0.008
+age,3_regions,New Haven Inner Ring,2019,ages65plus,22848,1003,0.158,0.006
+age,3_regions,New Haven Outer Ring,2019,total_pop,188864,2787,NA,NA
+age,3_regions,New Haven Outer Ring,2019,ages0_17,35878,1295,0.19,0.006
+age,3_regions,New Haven Outer Ring,2019,ages65plus,41255,1228,0.218,0.006
 age,4_towns,Andover,2019,total_pop,3203,321,NA,NA
 age,4_towns,Andover,2019,ages0_17,594,146,0.185,0.042
 age,4_towns,Andover,2019,ages65plus,455,99,0.142,0.027
@@ -758,6 +778,9 @@ sex,2_counties,Tolland County,2019,female,75462,118,0.5,0.001
 sex,2_counties,Windham County,2019,total_pop,116566,272,NA,NA
 sex,2_counties,Windham County,2019,male,57727,192,0.495,0.001
 sex,2_counties,Windham County,2019,female,58839,192,0.505,0.001
+sex,3_regions,6 wealthiest Fairfield County,2019,total_pop,123826,1068,NA,NA
+sex,3_regions,6 wealthiest Fairfield County,2019,male,60247,753,0.487,0.004
+sex,3_regions,6 wealthiest Fairfield County,2019,female,63579,758,0.513,0.004
 sex,3_regions,Greater Bridgeport,2019,total_pop,322564,2102,NA,NA
 sex,3_regions,Greater Bridgeport,2019,male,155546,1484,0.482,0.003
 sex,3_regions,Greater Bridgeport,2019,female,167018,1488,0.518,0.003
@@ -770,9 +793,21 @@ sex,3_regions,Greater New Haven,2019,female,240923,1995,0.52,0.003
 sex,3_regions,Greater Waterbury,2019,total_pop,333077,2193,NA,NA
 sex,3_regions,Greater Waterbury,2019,male,164051,1552,0.493,0.003
 sex,3_regions,Greater Waterbury,2019,female,169026,1549,0.507,0.003
+sex,3_regions,Hartford Inner Ring,2019,total_pop,421743,2623,NA,NA
+sex,3_regions,Hartford Inner Ring,2019,male,205349,1852,0.487,0.003
+sex,3_regions,Hartford Inner Ring,2019,female,216394,1857,0.513,0.003
+sex,3_regions,Hartford Outer Ring,2019,total_pop,354273,2035,NA,NA
+sex,3_regions,Hartford Outer Ring,2019,male,174631,1439,0.493,0.003
+sex,3_regions,Hartford Outer Ring,2019,female,179642,1439,0.507,0.003
 sex,3_regions,Lower Naugatuck Valley,2019,total_pop,139537,1623,NA,NA
 sex,3_regions,Lower Naugatuck Valley,2019,male,68125,1148,0.488,0.006
 sex,3_regions,Lower Naugatuck Valley,2019,female,71412,1147,0.512,0.006
+sex,3_regions,New Haven Inner Ring,2019,total_pop,144487,1824,NA,NA
+sex,3_regions,New Haven Inner Ring,2019,male,69652,1288,0.482,0.007
+sex,3_regions,New Haven Inner Ring,2019,female,74835,1292,0.518,0.006
+sex,3_regions,New Haven Outer Ring,2019,total_pop,188864,1469,NA,NA
+sex,3_regions,New Haven Outer Ring,2019,male,91181,1037,0.483,0.004
+sex,3_regions,New Haven Outer Ring,2019,female,97683,1041,0.517,0.004
 sex,4_towns,Andover,2019,total_pop,3203,182,NA,NA
 sex,4_towns,Andover,2019,male,1482,128,0.463,0.03
 sex,4_towns,Andover,2019,female,1721,129,0.537,0.026
@@ -1325,6 +1360,11 @@ race,2_counties,Windham County,2019,hispanic,13754,0,0.118,0
 race,2_counties,Windham County,2019,white,96404,47,0.827,0
 race,2_counties,Windham County,2019,black,2056,215,0.018,0.002
 race,2_counties,Windham County,2019,other_race,4352,286,0.037,0.002
+race,3_regions,6 wealthiest Fairfield County,2019,total_pop,123826,64,NA,NA
+race,3_regions,6 wealthiest Fairfield County,2019,hispanic,5732,839,0.046,0.007
+race,3_regions,6 wealthiest Fairfield County,2019,white,106926,1207,0.864,0.01
+race,3_regions,6 wealthiest Fairfield County,2019,black,1374,372,0.011,0.003
+race,3_regions,6 wealthiest Fairfield County,2019,other_race,9794,857,0.079,0.007
 race,3_regions,Greater Bridgeport,2019,total_pop,322564,102,NA,NA
 race,3_regions,Greater Bridgeport,2019,hispanic,77114,2109,0.239,0.007
 race,3_regions,Greater Bridgeport,2019,white,165726,2122,0.514,0.007
@@ -1345,11 +1385,31 @@ race,3_regions,Greater Waterbury,2019,hispanic,54873,2131,0.165,0.006
 race,3_regions,Greater Waterbury,2019,white,234052,2412,0.703,0.007
 race,3_regions,Greater Waterbury,2019,black,27455,1796,0.082,0.005
 race,3_regions,Greater Waterbury,2019,other_race,16697,1476,0.05,0.004
+race,3_regions,Hartford Inner Ring,2019,total_pop,421743,241,NA,NA
+race,3_regions,Hartford Inner Ring,2019,hispanic,54810,1975,0.13,0.005
+race,3_regions,Hartford Inner Ring,2019,white,270904,2720,0.642,0.006
+race,3_regions,Hartford Inner Ring,2019,black,56601,2111,0.134,0.005
+race,3_regions,Hartford Inner Ring,2019,other_race,39428,2111,0.093,0.005
+race,3_regions,Hartford Outer Ring,2019,total_pop,354273,248,NA,NA
+race,3_regions,Hartford Outer Ring,2019,hispanic,17968,1493,0.051,0.004
+race,3_regions,Hartford Outer Ring,2019,white,299240,2242,0.845,0.006
+race,3_regions,Hartford Outer Ring,2019,black,8613,1108,0.024,0.003
+race,3_regions,Hartford Outer Ring,2019,other_race,28452,1509,0.08,0.004
 race,3_regions,Lower Naugatuck Valley,2019,total_pop,139537,91,NA,NA
 race,3_regions,Lower Naugatuck Valley,2019,hispanic,18194,1634,0.13,0.012
 race,3_regions,Lower Naugatuck Valley,2019,white,106650,1925,0.764,0.014
 race,3_regions,Lower Naugatuck Valley,2019,black,7780,1075,0.056,0.008
 race,3_regions,Lower Naugatuck Valley,2019,other_race,6913,1014,0.05,0.007
+race,3_regions,New Haven Inner Ring,2019,total_pop,144487,79,NA,NA
+race,3_regions,New Haven Inner Ring,2019,hispanic,25268,1633,0.175,0.011
+race,3_regions,New Haven Inner Ring,2019,white,82769,1742,0.573,0.012
+race,3_regions,New Haven Inner Ring,2019,black,25989,1624,0.18,0.011
+race,3_regions,New Haven Inner Ring,2019,other_race,10461,1201,0.072,0.008
+race,3_regions,New Haven Outer Ring,2019,total_pop,188864,125,NA,NA
+race,3_regions,New Haven Outer Ring,2019,hispanic,9201,1052,0.049,0.006
+race,3_regions,New Haven Outer Ring,2019,white,161114,1720,0.853,0.009
+race,3_regions,New Haven Outer Ring,2019,black,4197,797,0.022,0.004
+race,3_regions,New Haven Outer Ring,2019,other_race,14352,1220,0.076,0.006
 race,4_towns,Andover,2019,total_pop,3203,124,NA,NA
 race,4_towns,Andover,2019,hispanic,96,84,0.03,0.026
 race,4_towns,Andover,2019,white,2969,163,0.927,0.036
@@ -2213,6 +2273,8 @@ foreign_born,2_counties,Tolland County,2019,total_pop,151063,0,NA,NA
 foreign_born,2_counties,Tolland County,2019,foreign_born,10483,783,0.069,0.005
 foreign_born,2_counties,Windham County,2019,total_pop,116566,0,NA,NA
 foreign_born,2_counties,Windham County,2019,foreign_born,5672,642,0.049,0.006
+foreign_born,3_regions,6 wealthiest Fairfield County,2019,total_pop,123826,64,NA,NA
+foreign_born,3_regions,6 wealthiest Fairfield County,2019,foreign_born,15547,975,0.126,0.008
 foreign_born,3_regions,Greater Bridgeport,2019,total_pop,322564,102,NA,NA
 foreign_born,3_regions,Greater Bridgeport,2019,foreign_born,66939,2301,0.208,0.007
 foreign_born,3_regions,Greater Hartford,2019,total_pop,971871,361,NA,NA
@@ -2221,8 +2283,16 @@ foreign_born,3_regions,Greater New Haven,2019,total_pop,463682,155,NA,NA
 foreign_born,3_regions,Greater New Haven,2019,foreign_born,62962,2427,0.136,0.005
 foreign_born,3_regions,Greater Waterbury,2019,total_pop,333077,323,NA,NA
 foreign_born,3_regions,Greater Waterbury,2019,foreign_born,37852,1879,0.114,0.006
+foreign_born,3_regions,Hartford Inner Ring,2019,total_pop,421743,241,NA,NA
+foreign_born,3_regions,Hartford Inner Ring,2019,foreign_born,66593,2421,0.158,0.006
+foreign_born,3_regions,Hartford Outer Ring,2019,total_pop,354273,248,NA,NA
+foreign_born,3_regions,Hartford Outer Ring,2019,foreign_born,35362,1669,0.1,0.005
 foreign_born,3_regions,Lower Naugatuck Valley,2019,total_pop,139537,91,NA,NA
 foreign_born,3_regions,Lower Naugatuck Valley,2019,foreign_born,16630,1202,0.119,0.009
+foreign_born,3_regions,New Haven Inner Ring,2019,total_pop,144487,79,NA,NA
+foreign_born,3_regions,New Haven Inner Ring,2019,foreign_born,21304,1571,0.147,0.011
+foreign_born,3_regions,New Haven Outer Ring,2019,total_pop,188864,125,NA,NA
+foreign_born,3_regions,New Haven Outer Ring,2019,foreign_born,18402,1101,0.097,0.006
 foreign_born,4_towns,Andover,2019,total_pop,3203,124,NA,NA
 foreign_born,4_towns,Andover,2019,foreign_born,85,62,0.027,0.019
 foreign_born,4_towns,Ansonia,2019,total_pop,18802,48,NA,NA
@@ -2579,6 +2649,8 @@ tenure,2_counties,Tolland County,2019,total_households,55683,583,NA,NA
 tenure,2_counties,Tolland County,2019,owner_occupied,39960,639,0.718,0.009
 tenure,2_counties,Windham County,2019,total_households,44953,550,NA,NA
 tenure,2_counties,Windham County,2019,owner_occupied,31004,778,0.69,0.015
+tenure,3_regions,6 wealthiest Fairfield County,2019,total_households,42465,509,NA,NA
+tenure,3_regions,6 wealthiest Fairfield County,2019,owner_occupied,36328,594,0.855,0.01
 tenure,3_regions,Greater Bridgeport,2019,total_households,112798,1065,NA,NA
 tenure,3_regions,Greater Bridgeport,2019,owner_occupied,73104,1148,0.648,0.008
 tenure,3_regions,Greater Hartford,2019,total_households,376861,1977,NA,NA
@@ -2587,8 +2659,16 @@ tenure,3_regions,Greater New Haven,2019,total_households,177208,1543,NA,NA
 tenure,3_regions,Greater New Haven,2019,owner_occupied,106231,1480,0.599,0.007
 tenure,3_regions,Greater Waterbury,2019,total_households,126404,1245,NA,NA
 tenure,3_regions,Greater Waterbury,2019,owner_occupied,86797,1281,0.687,0.008
+tenure,3_regions,Hartford Inner Ring,2019,total_households,169726,1303,NA,NA
+tenure,3_regions,Hartford Inner Ring,2019,owner_occupied,116647,1334,0.687,0.006
+tenure,3_regions,Hartford Outer Ring,2019,total_households,132213,1012,NA,NA
+tenure,3_regions,Hartford Outer Ring,2019,owner_occupied,105473,1131,0.798,0.006
 tenure,3_regions,Lower Naugatuck Valley,2019,total_households,54070,867,NA,NA
 tenure,3_regions,Lower Naugatuck Valley,2019,owner_occupied,39596,857,0.732,0.011
+tenure,3_regions,New Haven Inner Ring,2019,total_households,53610,905,NA,NA
+tenure,3_regions,New Haven Inner Ring,2019,owner_occupied,33401,883,0.623,0.013
+tenure,3_regions,New Haven Outer Ring,2019,total_households,74421,873,NA,NA
+tenure,3_regions,New Haven Outer Ring,2019,owner_occupied,59073,946,0.794,0.009
 tenure,4_towns,Andover,2019,total_households,1216,97,NA,NA
 tenure,4_towns,Andover,2019,owner_occupied,1075,86,0.884,0.005
 tenure,4_towns,Ansonia,2019,total_households,7806,409,NA,NA
@@ -2945,6 +3025,8 @@ housing_cost,2_counties,Tolland County,2019,total_households,54665,1468,NA,NA
 housing_cost,2_counties,Tolland County,2019,cost_burden,16093,988,0.294,0.016
 housing_cost,2_counties,Windham County,2019,total_households,43758,1400,NA,NA
 housing_cost,2_counties,Windham County,2019,cost_burden,14272,823,0.326,0.016
+housing_cost,3_regions,6 wealthiest Fairfield County,2019,total_households,41882,1132,NA,NA
+housing_cost,3_regions,6 wealthiest Fairfield County,2019,cost_burden,13714,730,0.327,0.015
 housing_cost,3_regions,Greater Bridgeport,2019,total_households,110205,2113,NA,NA
 housing_cost,3_regions,Greater Bridgeport,2019,cost_burden,47960,1517,0.435,0.011
 housing_cost,3_regions,Greater Hartford,2019,total_households,367852,3856,NA,NA
@@ -2953,8 +3035,16 @@ housing_cost,3_regions,Greater New Haven,2019,total_households,172820,2807,NA,NA
 housing_cost,3_regions,Greater New Haven,2019,cost_burden,69183,1857,0.4,0.009
 housing_cost,3_regions,Greater Waterbury,2019,total_households,122987,2339,NA,NA
 housing_cost,3_regions,Greater Waterbury,2019,cost_burden,43197,1456,0.351,0.01
+housing_cost,3_regions,Hartford Inner Ring,2019,total_households,166467,2611,NA,NA
+housing_cost,3_regions,Hartford Inner Ring,2019,cost_burden,53247,1633,0.32,0.008
+housing_cost,3_regions,Hartford Outer Ring,2019,total_households,129668,2212,NA,NA
+housing_cost,3_regions,Hartford Outer Ring,2019,cost_burden,34876,1300,0.269,0.009
 housing_cost,3_regions,Lower Naugatuck Valley,2019,total_households,52644,1625,NA,NA
 housing_cost,3_regions,Lower Naugatuck Valley,2019,cost_burden,17917,1032,0.34,0.017
+housing_cost,3_regions,New Haven Inner Ring,2019,total_households,52479,1658,NA,NA
+housing_cost,3_regions,New Haven Inner Ring,2019,cost_burden,20356,1073,0.388,0.016
+housing_cost,3_regions,New Haven Outer Ring,2019,total_households,72718,1663,NA,NA
+housing_cost,3_regions,New Haven Outer Ring,2019,cost_burden,23594,1035,0.324,0.012
 housing_cost,4_towns,Andover,2019,total_households,1216,173,NA,NA
 housing_cost,4_towns,Andover,2019,cost_burden,273,89,0.225,0.066
 housing_cost,4_towns,Ansonia,2019,total_households,7457,681,NA,NA
@@ -3311,6 +3401,8 @@ vehicles,2_counties,Tolland County,2019,total_households,55683,583,NA,NA
 vehicles,2_counties,Tolland County,2019,has_vehicle,53259,1328,0.956,0.022
 vehicles,2_counties,Windham County,2019,total_households,44953,550,NA,NA
 vehicles,2_counties,Windham County,2019,has_vehicle,41999,1174,0.934,0.023
+vehicles,3_regions,6 wealthiest Fairfield County,2019,total_households,42465,509,NA,NA
+vehicles,3_regions,6 wealthiest Fairfield County,2019,has_vehicle,41407,1023,0.975,0.021
 vehicles,3_regions,Greater Bridgeport,2019,total_households,112798,1065,NA,NA
 vehicles,3_regions,Greater Bridgeport,2019,has_vehicle,100100,1903,0.887,0.015
 vehicles,3_regions,Greater Hartford,2019,total_households,376861,1977,NA,NA
@@ -3319,8 +3411,16 @@ vehicles,3_regions,Greater New Haven,2019,total_households,177208,1543,NA,NA
 vehicles,3_regions,Greater New Haven,2019,has_vehicle,155165,2407,0.876,0.011
 vehicles,3_regions,Greater Waterbury,2019,total_households,126404,1245,NA,NA
 vehicles,3_regions,Greater Waterbury,2019,has_vehicle,114904,2069,0.909,0.014
+vehicles,3_regions,Hartford Inner Ring,2019,total_households,169726,1303,NA,NA
+vehicles,3_regions,Hartford Inner Ring,2019,has_vehicle,157173,2244,0.926,0.011
+vehicles,3_regions,Hartford Outer Ring,2019,total_households,132213,1012,NA,NA
+vehicles,3_regions,Hartford Outer Ring,2019,has_vehicle,127099,1943,0.961,0.013
 vehicles,3_regions,Lower Naugatuck Valley,2019,total_households,54070,867,NA,NA
 vehicles,3_regions,Lower Naugatuck Valley,2019,has_vehicle,50667,1387,0.937,0.021
+vehicles,3_regions,New Haven Inner Ring,2019,total_households,53610,905,NA,NA
+vehicles,3_regions,New Haven Inner Ring,2019,has_vehicle,48393,1442,0.903,0.022
+vehicles,3_regions,New Haven Outer Ring,2019,total_households,74421,873,NA,NA
+vehicles,3_regions,New Haven Outer Ring,2019,has_vehicle,71485,1521,0.961,0.017
 vehicles,4_towns,Andover,2019,total_households,1216,97,NA,NA
 vehicles,4_towns,Andover,2019,has_vehicle,1192,164,0.98,0.11
 vehicles,4_towns,Ansonia,2019,total_households,7806,409,NA,NA
@@ -3686,6 +3786,9 @@ education,2_counties,Tolland County,2019,bachelors_plus,40173,1196,0.418,0.012
 education,2_counties,Windham County,2019,ages25plus,81392,175,NA,NA
 education,2_counties,Windham County,2019,less_than_high_school,9439,727,0.116,0.009
 education,2_counties,Windham County,2019,bachelors_plus,19805,948,0.243,0.012
+education,3_regions,6 wealthiest Fairfield County,2019,ages25plus,80305,731,NA,NA
+education,3_regions,6 wealthiest Fairfield County,2019,less_than_high_school,1701,280,0.021,0.003
+education,3_regions,6 wealthiest Fairfield County,2019,bachelors_plus,62768,1294,0.782,0.014
 education,3_regions,Greater Bridgeport,2019,ages25plus,213112,1503,NA,NA
 education,3_regions,Greater Bridgeport,2019,less_than_high_school,28979,1279,0.136,0.006
 education,3_regions,Greater Bridgeport,2019,bachelors_plus,79264,1775,0.372,0.008
@@ -3698,9 +3801,21 @@ education,3_regions,Greater New Haven,2019,bachelors_plus,129159,2542,0.405,0.00
 education,3_regions,Greater Waterbury,2019,ages25plus,233876,1680,NA,NA
 education,3_regions,Greater Waterbury,2019,less_than_high_school,24254,1164,0.104,0.005
 education,3_regions,Greater Waterbury,2019,bachelors_plus,77321,1852,0.331,0.008
+education,3_regions,Hartford Inner Ring,2019,ages25plus,303081,1772,NA,NA
+education,3_regions,Hartford Inner Ring,2019,less_than_high_school,25208,1315,0.083,0.004
+education,3_regions,Hartford Inner Ring,2019,bachelors_plus,119031,2200,0.393,0.007
+education,3_regions,Hartford Outer Ring,2019,ages25plus,241148,1425,NA,NA
+education,3_regions,Hartford Outer Ring,2019,less_than_high_school,10530,710,0.044,0.003
+education,3_regions,Hartford Outer Ring,2019,bachelors_plus,120884,2202,0.501,0.009
 education,3_regions,Lower Naugatuck Valley,2019,ages25plus,100361,1266,NA,NA
 education,3_regions,Lower Naugatuck Valley,2019,less_than_high_school,8034,717,0.08,0.007
 education,3_regions,Lower Naugatuck Valley,2019,bachelors_plus,32201,1383,0.321,0.013
+education,3_regions,New Haven Inner Ring,2019,ages25plus,97534,1219,NA,NA
+education,3_regions,New Haven Inner Ring,2019,less_than_high_school,8884,886,0.091,0.009
+education,3_regions,New Haven Inner Ring,2019,bachelors_plus,32352,1430,0.332,0.014
+education,3_regions,New Haven Outer Ring,2019,ages25plus,140736,1073,NA,NA
+education,3_regions,New Haven Outer Ring,2019,less_than_high_school,6336,575,0.045,0.004
+education,3_regions,New Haven Outer Ring,2019,bachelors_plus,68692,1702,0.488,0.012
 education,4_towns,Andover,2019,ages25plus,2274,147,NA,NA
 education,4_towns,Andover,2019,less_than_high_school,84,49,0.037,0.021
 education,4_towns,Andover,2019,bachelors_plus,885,163,0.389,0.067
@@ -4413,6 +4528,9 @@ poverty,2_counties,Tolland County,2019,low_income,24012,1701,0.177,0.012
 poverty,2_counties,Windham County,2019,poverty_status_determined,111204,505,NA,NA
 poverty,2_counties,Windham County,2019,poverty,12678,1256,0.114,0.011
 poverty,2_counties,Windham County,2019,low_income,28228,2015,0.254,0.018
+poverty,3_regions,6 wealthiest Fairfield County,2019,poverty_status_determined,123184,201,NA,NA
+poverty,3_regions,6 wealthiest Fairfield County,2019,poverty,3928,666,0.032,0.005
+poverty,3_regions,6 wealthiest Fairfield County,2019,low_income,9355,1112,0.076,0.009
 poverty,3_regions,Greater Bridgeport,2019,poverty_status_determined,312859,662,NA,NA
 poverty,3_regions,Greater Bridgeport,2019,poverty,39628,2381,0.127,0.008
 poverty,3_regions,Greater Bridgeport,2019,low_income,87004,3691,0.278,0.012
@@ -4425,9 +4543,21 @@ poverty,3_regions,Greater New Haven,2019,low_income,113504,4380,0.255,0.01
 poverty,3_regions,Greater Waterbury,2019,poverty_status_determined,327164,607,NA,NA
 poverty,3_regions,Greater Waterbury,2019,poverty,35294,2357,0.108,0.007
 poverty,3_regions,Greater Waterbury,2019,low_income,79101,3520,0.242,0.011
+poverty,3_regions,Hartford Inner Ring,2019,poverty_status_determined,413839,851,NA,NA
+poverty,3_regions,Hartford Inner Ring,2019,poverty,32776,2058,0.079,0.005
+poverty,3_regions,Hartford Inner Ring,2019,low_income,83000,3577,0.201,0.009
+poverty,3_regions,Hartford Outer Ring,2019,poverty_status_determined,335350,815,NA,NA
+poverty,3_regions,Hartford Outer Ring,2019,poverty,17001,1433,0.051,0.004
+poverty,3_regions,Hartford Outer Ring,2019,low_income,42049,2264,0.125,0.007
 poverty,3_regions,Lower Naugatuck Valley,2019,poverty_status_determined,138127,344,NA,NA
 poverty,3_regions,Lower Naugatuck Valley,2019,poverty,10252,1425,0.074,0.01
 poverty,3_regions,Lower Naugatuck Valley,2019,low_income,26460,2345,0.192,0.017
+poverty,3_regions,New Haven Inner Ring,2019,poverty_status_determined,135535,556,NA,NA
+poverty,3_regions,New Haven Inner Ring,2019,poverty,13503,1519,0.1,0.011
+poverty,3_regions,New Haven Inner Ring,2019,low_income,31926,2389,0.236,0.018
+poverty,3_regions,New Haven Outer Ring,2019,poverty_status_determined,187395,297,NA,NA
+poverty,3_regions,New Haven Outer Ring,2019,poverty,7752,853,0.041,0.005
+poverty,3_regions,New Haven Outer Ring,2019,low_income,22792,1654,0.122,0.009
 poverty,4_towns,Andover,2019,poverty_status_determined,3203,124,NA,NA
 poverty,4_towns,Andover,2019,poverty,75,51,0.023,0.016
 poverty,4_towns,Andover,2019,low_income,252,119,0.079,0.037
@@ -4989,6 +5119,12 @@ pov_age,2_counties,Windham County,2019,ages0_17_low_income,7811,857,0.343,0.032
 pov_age,2_counties,Windham County,2019,ages65plus_poverty_status_determined,17815,884,NA,NA
 pov_age,2_counties,Windham County,2019,ages65plus_poverty,1329,255,0.075,0.014
 pov_age,2_counties,Windham County,2019,ages65plus_low_income,4147,457,0.233,0.023
+pov_age,3_regions,6 wealthiest Fairfield County,2019,ages0_17_poverty_status_determined,35905,1251,NA,NA
+pov_age,3_regions,6 wealthiest Fairfield County,2019,ages0_17_poverty,843,271,0.023,0.008
+pov_age,3_regions,6 wealthiest Fairfield County,2019,ages0_17_low_income,2227,445,0.062,0.012
+pov_age,3_regions,6 wealthiest Fairfield County,2019,ages65plus_poverty_status_determined,19136,925,NA,NA
+pov_age,3_regions,6 wealthiest Fairfield County,2019,ages65plus_poverty,664,196,0.035,0.01
+pov_age,3_regions,6 wealthiest Fairfield County,2019,ages65plus_low_income,1868,319,0.098,0.016
 pov_age,3_regions,Greater Bridgeport,2019,ages0_17_poverty_status_determined,72586,2173,NA,NA
 pov_age,3_regions,Greater Bridgeport,2019,ages0_17_poverty,12533,993,0.173,0.013
 pov_age,3_regions,Greater Bridgeport,2019,ages0_17_low_income,26176,1433,0.361,0.017
@@ -5013,12 +5149,36 @@ pov_age,3_regions,Greater Waterbury,2019,ages0_17_low_income,23059,1529,0.328,0.
 pov_age,3_regions,Greater Waterbury,2019,ages65plus_poverty_status_determined,57432,1694,NA,NA
 pov_age,3_regions,Greater Waterbury,2019,ages65plus_poverty,4285,506,0.075,0.009
 pov_age,3_regions,Greater Waterbury,2019,ages65plus_low_income,13324,846,0.232,0.013
+pov_age,3_regions,Hartford Inner Ring,2019,ages0_17_poverty_status_determined,81755,2494,NA,NA
+pov_age,3_regions,Hartford Inner Ring,2019,ages0_17_poverty,7749,896,0.095,0.011
+pov_age,3_regions,Hartford Inner Ring,2019,ages0_17_low_income,21559,1460,0.264,0.016
+pov_age,3_regions,Hartford Inner Ring,2019,ages65plus_poverty_status_determined,72869,1823,NA,NA
+pov_age,3_regions,Hartford Inner Ring,2019,ages65plus_poverty,5599,571,0.077,0.008
+pov_age,3_regions,Hartford Inner Ring,2019,ages65plus_low_income,15538,906,0.213,0.011
+pov_age,3_regions,Hartford Outer Ring,2019,ages0_17_poverty_status_determined,70978,2132,NA,NA
+pov_age,3_regions,Hartford Outer Ring,2019,ages0_17_poverty,2721,538,0.038,0.007
+pov_age,3_regions,Hartford Outer Ring,2019,ages0_17_low_income,7862,900,0.111,0.012
+pov_age,3_regions,Hartford Outer Ring,2019,ages65plus_poverty_status_determined,59993,1713,NA,NA
+pov_age,3_regions,Hartford Outer Ring,2019,ages65plus_poverty,2740,386,0.046,0.006
+pov_age,3_regions,Hartford Outer Ring,2019,ages65plus_low_income,9831,737,0.164,0.011
 pov_age,3_regions,Lower Naugatuck Valley,2019,ages0_17_poverty_status_determined,27604,1668,NA,NA
 pov_age,3_regions,Lower Naugatuck Valley,2019,ages0_17_poverty,2502,618,0.091,0.022
 pov_age,3_regions,Lower Naugatuck Valley,2019,ages0_17_low_income,6754,1015,0.245,0.034
 pov_age,3_regions,Lower Naugatuck Valley,2019,ages65plus_poverty_status_determined,23954,1219,NA,NA
 pov_age,3_regions,Lower Naugatuck Valley,2019,ages65plus_poverty,1488,303,0.062,0.012
 pov_age,3_regions,Lower Naugatuck Valley,2019,ages65plus_low_income,4819,573,0.201,0.022
+pov_age,3_regions,New Haven Inner Ring,2019,ages0_17_poverty_status_determined,26305,1607,NA,NA
+pov_age,3_regions,New Haven Inner Ring,2019,ages0_17_poverty,3804,676,0.145,0.024
+pov_age,3_regions,New Haven Inner Ring,2019,ages0_17_low_income,8302,989,0.316,0.032
+pov_age,3_regions,New Haven Inner Ring,2019,ages65plus_poverty_status_determined,22050,1124,NA,NA
+pov_age,3_regions,New Haven Inner Ring,2019,ages65plus_poverty,1451,270,0.066,0.012
+pov_age,3_regions,New Haven Inner Ring,2019,ages65plus_low_income,4799,505,0.218,0.02
+pov_age,3_regions,New Haven Outer Ring,2019,ages0_17_poverty_status_determined,35581,1536,NA,NA
+pov_age,3_regions,New Haven Outer Ring,2019,ages0_17_poverty,1401,342,0.039,0.009
+pov_age,3_regions,New Haven Outer Ring,2019,ages0_17_low_income,4151,606,0.117,0.016
+pov_age,3_regions,New Haven Outer Ring,2019,ages65plus_poverty_status_determined,40249,1456,NA,NA
+pov_age,3_regions,New Haven Outer Ring,2019,ages65plus_poverty,1840,384,0.046,0.009
+pov_age,3_regions,New Haven Outer Ring,2019,ages65plus_low_income,6338,637,0.157,0.015
 pov_age,4_towns,Andover,2019,ages0_17_poverty_status_determined,594,167,NA,NA
 pov_age,4_towns,Andover,2019,ages0_17_poverty,0,12,0,0.02
 pov_age,4_towns,Andover,2019,ages0_17_low_income,60,56,0.101,0.09
