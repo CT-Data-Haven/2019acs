@@ -29,7 +29,8 @@ meta <- read_csv("input_data/website_meta.csv") %>%
 prof_out <- acs %>%
   left_join(cws_df, by = c("Town" = "name")) %>%
   left_join(meta, by = "Town") %>%
-  mutate(Town = str_replace(Town, "(?<= County)$", ", Connecticut")) %>%
+  mutate(Town = str_replace(Town, "(?<= County)$", ", Connecticut"),
+         County = str_remove(County, " County$")) %>%
   select(Town, County, `Key Facts`, `Wellbeing, Population 18 years and over`,
          # cws indicators
          starts_with("cws_"), `Maximum MoE on above estimates`,

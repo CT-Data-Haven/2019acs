@@ -140,12 +140,15 @@ out_df <- out %>%
 # regular working versions
 saveRDS(ungroup(out_df), str_glue("output_data/acs_town_basic_profile_{acs_year}.rds"))
 
-write_csv(out_df, str_glue("output_data/acs_town_basic_profile_{acs_year}.csv"))
+out_df %>%
+  filter(!str_detect(level, "puma")) %>%
+  write_csv(str_glue("output_data/acs_town_basic_profile_{acs_year}.csv"))
 
 # distro version
 out_df %>%
   ungroup() %>%
   select(level, name, group, estimate, share) %>%
+  filter(!str_detect(level, "puma")) %>%
   pivot_longer(estimate:share, names_to = "type") %>%
   unite(indicator, type, group, sep = " ") %>%
   filter(!is.na(value)) %>%
