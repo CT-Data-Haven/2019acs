@@ -10,7 +10,7 @@ headings <- file.path("utils", c("indicator_headings.txt", "headings_extra.txt")
   distinct(indicator, display)
 
 fetch <- readRDS(str_glue("./fetch_data/acs_basic_{acs_year}_fetch_towns.rds")) %>%
-  map(filter, str_detect(level, "(state|counties|regions|towns)")) %>%
+  map(filter, str_detect(level, "(state|counties|regions|towns|puma)")) %>%
   map(label_acs, acs_year) %>%
   map(group_by, level, name, year) %>%
   map(~replace_na(., list(moe = 0)))
